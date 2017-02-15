@@ -1,0 +1,107 @@
+/*底部footer开始*/
+#footer {
+    margin-top: 50px;
+    padding-top: 20px;
+    background-color: #f69057;
+    position: relative;
+    color: #fff;
+    font-size: 12px;
+    font-family: "宋体";
+    font-weight: 400;
+    text-align: center;
+}
+
+#footer .footerBg {
+    height: 222px;
+    background: url("../images/ac_footer_bg.jpg") center 0 no-repeat;
+}
+
+#footer img {
+    width: 80px;
+    margin-right: 60px;
+    margin-bottom: 10px;
+}
+
+#footer span {
+    margin-right: 66px;
+}
+
+.footerBorder {
+    height: 10px;
+    width: 100%;
+    background: url("../images/ac_global.png") 0 -703px repeat-x;
+    position: absolute;
+    top: -10px;
+}
+
+#footer a {
+    color: #fff;
+    font-size: 12px;
+    font-family: "宋体";
+    display: inline-block;
+    /*float: left;*/
+    margin-right: 20px;
+}
+
+
+/*
+<!--底部开始-->
+<div id="footer">
+    <div class="footerBg">
+        <div class="w">
+            <!--二维码-->
+            <img src="images/ac_qr_img.jpg">
+
+            <img src="images/ac_wx_img.jpg">
+            <p><span>腾讯动漫客户端</span><span>腾讯动漫微信
+</span></p>
+            <br/>
+            <br/>
+            <br/>
+            <a href="javascript:;">网站地图 </a>
+            <a href="javascript:;">站内帮助 </a>
+            <a href="javascript:;">反馈通道 </a>
+            <a href="javascript:;">官方微博 </a>
+            <a href="javascript:;">邮箱推荐 </a>
+            <a href="javascript:;">服务协议 </a>
+            <a href="javascript:;">侵权反馈指引 </a>
+            联系方式：<a href="javascript:;">ac_copyright@qq.com</a>
+            <br/>
+            <br/>
+            Copyright©1998 - 2017 Tencent. All Rights Reserved
+            <br/></br/>
+            腾讯公司 版权所有
+        </div>
+    </div>
+    <div class="footerBorder"></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/

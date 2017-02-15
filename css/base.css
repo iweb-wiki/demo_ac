@@ -1,0 +1,56 @@
+body, p, h1, h2, h3, h4, ol, ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: 0 none;
+  font-weight: normal;
+  font-size: 12px;
+  font-family: "微软雅黑";
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img, input {
+  margin: 0;
+  padding: 0;
+  border: 0 none;
+  outline: none;
+  vertical-align: bottom;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-size: 12px;
+  font-family: "微软雅黑";
+}
+
+.clearfix:after {
+  content: "";
+  height: 0;
+  line-height: 0;
+  clear: both;
+  visibility: hidden;
+  display: block;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.w {
+  width: 1000px;
+  margin: 0 auto;
+}
+
