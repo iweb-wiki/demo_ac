@@ -33,7 +33,7 @@ setTimeout(function () {
 
 //倒计时显示
 closetime = setInterval(function () {
-  console.log(closet);
+//   console.log(closet);
   closet.innerHTML = count;
   count--;
   //清除计时器
@@ -260,7 +260,7 @@ for (var i = 0; i < imgDatas.length; i++) {
   //再高度最低的ul中放入li
   var minUl = getMin(ulHeight).index; //获取最低的ul的索引
   ulHeight[minUl] += imgDatas[i].height;
-  console.log(ulHeight);
+//   console.log(ulHeight);
   //创建li用来存放照片
   // $lis = $("<li></li>");
   //把内容放到高度最低的ul中
